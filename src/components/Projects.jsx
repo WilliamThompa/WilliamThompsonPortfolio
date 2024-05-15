@@ -55,7 +55,7 @@ function Projects() {
 
           <p className="py-5 text-xl">Check out my work below</p>
 
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          <div className="grid place-items-center sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
             {projects.map(
               (
                 { id, src, href1, href2, button1, button2, alt } //This uses the array previously mentioned and feeds it into specfic parts
