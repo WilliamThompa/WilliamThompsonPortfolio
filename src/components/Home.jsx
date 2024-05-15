@@ -25,7 +25,7 @@ function Home() {
                     I have 2 and a half years experience, I like working with React, Tailwind, SQL and ASP.   
                 </p>
                 <div>
-                    <Link to="/projects" smooth duration={500} className='group text-slate-900 w-fit px-6 py-3 my-2 flex items-center rounded-md bg-yellow-400 font-bold hover:scale-110 duration-300 cursor-pointer'>
+                    <Link to="/WilliamThompsonPortfolio/projects" smooth duration={500} className='group text-slate-900 w-fit px-6 py-3 my-2 flex items-center rounded-md bg-yellow-400 font-bold hover:scale-110 duration-300 cursor-pointer'>
                         Projects
                         <TbArrowRightCircle size={20} className='ml-1'/> {/*Arrow Icon*/}
                     </Link>
