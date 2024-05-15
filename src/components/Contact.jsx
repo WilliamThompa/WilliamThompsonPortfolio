@@ -5,7 +5,7 @@ function Contact(){
 
   return (
     <div name="contact" className='w-full  bg-gradient-to-b from-slate-900 via-slate-900 to-blue-950 p-4 text-white'>
-        <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto w-full h-full'>
+        <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto w-full h-screen'>
             <div className='pb-4 mt-20'>
                 <p className='text-5xl font-bold inline border-b-4 border-yellow-400 text-yellow-400'>Contact.</p>
             </div>

@@ -1,7 +1,7 @@
 {
-  "homepage": "https://williamthompa.github.io/WilliamThompsonPortfolio/",
   "name": "v2-portfolio",
-  "private": true,
+  "homepage": "https://williamthompa.github.io/WilliamThompsonPortfolio/",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
