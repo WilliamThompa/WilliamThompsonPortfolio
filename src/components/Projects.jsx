@@ -47,15 +47,14 @@ function Projects() {
         className="bg-gradient-to-b from-slate-900 via-slate-900 to-blue-950 w-full text-white md:h-screen"
       >
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-          <div className="pb-4">
-            <p className="text-5xl font-bold inline border-b-4 border-yellow-400 text-yellow-400">
-              Projects.
-            </p>
+            
+          <div className='pb-4 mt-20 md:mt-32'>
+            <p className='text-5xl font-bold inline border-b-4 border-yellow-400 text-yellow-400 '>Projects.</p>
           </div>
 
           <p className="py-5 text-xl">Check out my work below</p>
 
-          <div className="grid place-items-center sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          <div className="grid place-items-center place-content-center sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
             {projects.map(
               (
                 { id, src, href1, href2, button1, button2, alt } //This uses the array previously mentioned and feeds it into specfic parts
