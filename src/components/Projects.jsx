@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import VSCodeThemeLogo from "../assets/VSCodeThemeLogo.png";
-import RecipeFinder from "../assets/RecipeFinder.png";
-import Commerce from "../assets/Commerce.png"
+import StickmanEquationEvasion from "../assets/Stickman.png";
+import Portfolio from "../assets/Portfolio.png";
+import Embedded from "../assets/Embedded.png"
 import LoaderPage from "./LoaderPage";
 import Footer from "./Footer";
 
@@ -10,28 +10,27 @@ function Projects() {
     //An array handling my projects
     {
       id: 1,
-      src: VSCodeThemeLogo,
-      href1: "https://github.com/WilliamThompa/ThompaTheme",
-      href2:
-        "https://marketplace.visualstudio.com/items?itemName=WilliamThompa.thompa",
+      src: StickmanEquationEvasion,
+      href1: "https://github.com/WilliamThompa/Stickman-Equation-Evasion",
+      href2: "https://github.com/WilliamThompa/Stickman-Equation-Evasion",
       button1: "Repo",
-      button2: "Marketplace",
-      alt: "My Visual Studio Code Theme Logo",
+      button2: "",
+      alt: "Stickamn Logo",
     },
     {
       id: 2,
-      src: RecipeFinder,
-      href1: "https://github.com/WilliamThompa/Recipe-finder",
-      href2: "https://www.themealdb.com/",
+      src: Portfolio,
+      href1: "https://github.com/WilliamThompa/WilliamThompsonPortfolio",
+      href2: "https://github.com/WilliamThompa/WilliamThompsonPortfolio",
       button1: "Repo",
-      button2: "API Used",
-      alt: "Logo for recipe finder app",
+      button2: "",
+      alt: "Logo for Portfolio",
     },
     {
       id: 3,
-      src: Commerce,
-      href1: "https://github.com/WilliamThompa/Commerce-Store-Using-API",
-      href2: "",
+      src: Embedded,
+      href1: "https://github.com/WilliamThompa/Illicit-Content-Switcher",
+      href2: "https://github.com/WilliamThompa/Illicit-Content-Switcher",
       button1: "Repo",
       button2: "",
       alt: "Logo for commerce website",

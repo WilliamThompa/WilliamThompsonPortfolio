@@ -10,15 +10,25 @@ function About() { //Nothing to really comment about here it's all standed HTML 
             </div>
 
             <p className='text-xl mt-5'>
-                Hello There! I'm William Thompson, I'm an immigrant who moved to New Zealand from England when I was 10. I'm currently studying a Bachelors Degree in Information Technology. I started studying in 2022, I've been studying for 2 years and 
-                I'm currently in my final year. I enjoy working on databases and web development either Front End or Back End.
+            Hi, I’m William Thompson, a recent graduate with a Bachelor of Information Technology from the Southern Institute of Technology. I’m passionate about leveraging technology to solve real-world problems and creating innovative, user-focused software solutions.
             </p>
 
             <br/>
 
             <p className='text-xl mt-5'>
-                When I'm not studying or at my computer, I'm usually binge watching a show, working out at the gym, hanging out with my friends, or trying to 100% whatever video game I'm playing.
+            Throughout my studies and experiences, I have developed strong skills in web and software development, specializing in technologies like React, ASP.NET, C#, SQL, and JavaScript. Alongside my development expertise, I have practical experience in hardware troubleshooting and help desk support, ensuring smooth and efficient resolution of technical issues for users. These skills have given me a well-rounded understanding of both the software and hardware aspects of IT systems.            
             </p>
+
+            <br/>
+
+            <p className='text-xl mt-5'>
+            I thrive in collaborative environments where I can contribute to positive team dynamics and continuous improvement. Whether it’s assisting end-users with technical challenges, volunteering to improve local communities, or tackling complex coding tasks, I approach every opportunity with enthusiasm, reliability, and a problem-solving mindset.            
+            </p>
+
+            <br/>
+
+            <p className='text-xl mt-5'>
+            I’m currently seeking exciting opportunities where I can contribute my skills in software development, hardware support, and user assistance while learning from industry professionals in a supportive and dynamic environment. Feel free to explore my portfolio, and let’s connect to discuss how I can bring value to your team!            </p>
         </div>
         <Footer />
     </div>
